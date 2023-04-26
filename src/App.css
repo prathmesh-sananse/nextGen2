@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(237, 239, 240);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h3 {
+  padding: 5px 10px;
+}
+
+input {
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.box{
+  background: linear-gradient(#010101, #243b55);
+  border-radius: 15px;
+  width: auto;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.form-verify-element {
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px 5px;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  /* display: flex; */
+  background: linear-gradient(#141e30, #030609);
+}
+
+span {
+  padding: 5px 5px;
+  margin: 10px;
+}
+
+.currentForm {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(#141e30, #020304);
+  width: 800px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.addElementsSection {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.previewSection {
+  flex: 1;
+  text-align: center;
+
+}
+
+.submmitted-form-elements {
+  margin: 10px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  color: white;
+  font-size: 28px;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
